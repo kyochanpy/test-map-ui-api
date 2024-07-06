@@ -1,0 +1,14 @@
+workspace = { members = [
+    "map-ui-adapter",
+    "map-ui-app",
+    "map-ui-driver",
+    "map-ui-kernel",
+] }
+[package]
+name = "test-map-ui-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
