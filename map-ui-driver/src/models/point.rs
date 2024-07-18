@@ -24,6 +24,8 @@ pub struct Point {
     pub name: String,
     pub address: String,
     pub description: String,
+    pub latitude: f64,
+    pub longitude: f64,
 }
 
 impl From<PointDto> for Point {
@@ -33,6 +35,8 @@ impl From<PointDto> for Point {
             name: value.name,
             address: value.address,
             description: value.description,
+            latitude: value.latitude,
+            longitude: value.longitude,
         }
     }
 }

@@ -22,7 +22,7 @@ impl PointService for ServiceImpl<Coordinate> {
         let polygon = format!("POLYGON(({}))", polygon);
         let query = "
             SELECT
-                type, name, address, description
+                point_type, name, address, description, latitude, longitude
             FROM
                 test_map_ui.master
             WHERE

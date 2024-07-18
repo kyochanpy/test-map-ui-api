@@ -1,7 +1,7 @@
 use derive_new::new;
 use map_ui_kernel::models::coordinate::Coordinate;
 
-#[derive(new)]
+#[derive(new, Debug)]
 pub struct PointCommand {
     pub latitude: f64,
     pub longitude: f64,
