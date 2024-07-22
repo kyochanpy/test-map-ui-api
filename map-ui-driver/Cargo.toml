@@ -6,3 +6,23 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+map-ui-app = { path = "../map-ui-app" }
+map-ui-adapter = { path = "../map-ui-adapter" }
+map-ui-kernel = { path = "../map-ui-kernel" }
+axum = { version = "0.7.5", features = ["multipart"] }
+derive-new = "0.6.0"
+tokio = { version = "1.37.0", features = ["rt-multi-thread"] }
+anyhow = "1.0.82"
+config = "0.14.0"
+serde = "1.0.199"
+serde_json = "1.0.116"
+serde_derive = "1.0.199"
+thiserror = "1.0.59"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+validator = { version = "0.18.0", features = ["derive"] }
+http-body = "1.0.0"
+tower = { version = "0.4", features = ["util", "timeout"] }
+chrono = { version = "0.4.38", features = ["serde"] }
+tower-http = { version = "0.5.2", features = ["full"] }
+hyper = "1.4.1"
