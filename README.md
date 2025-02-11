@@ -1,3 +1,3 @@
 # test-map-ui-api
 
-suumoのなぞって検索のバックエンド
+suumoのなぞって検索再現のバックエンド
